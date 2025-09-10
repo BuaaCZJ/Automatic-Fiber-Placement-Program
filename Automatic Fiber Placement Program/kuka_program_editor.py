@@ -19,9 +19,9 @@ class KukaProgramEditor(QMainWindow):
         self.resize(1200, 800)  # 增大窗口尺寸以容纳代码显示区域
         
         # 原始文件路径
-        self.src_file_path = r"c:\Users\10953\Desktop\库卡程序0909\PB3.src"
-        self.dat_file_path = r"c:\Users\10953\Desktop\库卡程序0909\PB3.dat"
-        self.output_dir = r"c:\Users\10953\Desktop\库卡程序0909\生成代码"
+        self.src_file_path = r"your_file_path\PB3.src"
+        self.dat_file_path = r"your_file_path\PB3.dat"
+        self.output_dir = r"your_file_path\generated_code"
         self.parameter_log_file = os.path.join(self.output_dir, "parameter.txt")  # 参数记录文件路径
         
         # 创建UI
